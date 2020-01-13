@@ -1,0 +1,72 @@
+#map {
+    height: 8rem;
+    width: 100%;
+}
+.report_container{
+
+    border-radius: 1em;
+    background-color: rgba(16, 165, 125, 0.49);
+}
+.report_left, .report_right{
+    padding: 1em;
+}
+.report_id{
+    background-color: white;
+    /*border-top: solid rgba(16, 165, 125, 0.49);*/
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.opis_problema{
+
+}
+.slika_problema{
+}
+.report_wraper{
+    background-color: white;
+    border-radius: 1em;
+}
+.btn-proslijedi {
+    color: #FFFFFF;
+    background-color: #10A57D;
+    border-color: #10A57D;
+}
+
+.btn-proslijedi:hover,
+.btn-proslijedi:focus,
+.btn-proslijedi:active,
+.btn-proslijedi.active,
+.open .dropdown-toggle.btn-proslijedi {
+    color: #FFFFFF;
+    background-color: #1D876B;
+    border-color: #10A57D;
+}
+
+.btn-proslijedi:active,
+.btn-proslijedi.active,
+.open .dropdown-toggle.btn-proslijedi {
+    background-image: none;
+}
+
+.btn-proslijedi.disabled,
+.btn-proslijedi[disabled],
+fieldset[disabled] .btn-proslijedi,
+.btn-proslijedi.disabled:hover,
+.btn-proslijedi[disabled]:hover,
+fieldset[disabled] .btn-proslijedi:hover,
+.btn-proslijedi.disabled:focus,
+.btn-proslijedi[disabled]:focus,
+fieldset[disabled] .btn-proslijedi:focus,
+.btn-proslijedi.disabled:active,
+.btn-proslijedi[disabled]:active,
+fieldset[disabled] .btn-proslijedi:active,
+.btn-proslijedi.disabled.active,
+.btn-proslijedi[disabled].active,
+fieldset[disabled] .btn-proslijedi.active {
+    background-color: #10A57D;
+    border-color: #10A57D;
+}
+
+.btn-proslijedi .badge {
+    color: #10A57D;
+    background-color: #FFFFFF;
+}
